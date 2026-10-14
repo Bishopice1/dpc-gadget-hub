@@ -4,8 +4,7 @@ import { isAdminEmail, parseNextPath } from "@/lib/validation/auth";
 
 /**
  * Session refresh + route protection.
- * (Kept as middleware.ts: Next.js 16 prefers proxy.ts, but the middleware
- * convention still works — see Phase 6 cleanup.)
+ * (Next.js 16 renamed middleware.ts -> proxy.ts and middleware() -> proxy().)
  *  - /checkout, /orders, /order-confirmation: require a signed-in user.
  *  - /admin: requires an email listed in ADMIN_EMAILS.
  * Unauthenticated users are redirected to /login?next=<destination>.
@@ -17,7 +16,7 @@ const PROTECTED_PREFIXES = [
   "/admin",
 ];
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
