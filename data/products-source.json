@@ -1,0 +1,150 @@
+{
+  "store": "DPC Gadget Hub",
+  "note": "Single source of truth for seeded products. Edit this file, then run `npm run products:generate` to regenerate placeholder images, supabase/seed.sql and data/products-source.md. Replace /public/products/*.svg with real photos (update the images arrays here) at any time.",
+  "products": [
+    {
+      "id": "10000000-0000-4000-8000-000000000001",
+      "name": "Apple iPhone 13 128GB",
+      "slug": "apple-iphone-13-128gb",
+      "description": "The iPhone 13 pairs a bright 6.1-inch Super Retina XDR display with the fast A15 Bionic chip and a dual 12MP camera system. Unit is brand new, sealed, factory unlocked and ready for any Nigerian network. Box contents: iPhone, USB-C to Lightning cable, documentation.",
+      "price_ngn": 649000,
+      "category": "phones",
+      "stock": 8,
+      "is_featured": true,
+      "created_at": "2026-09-20T10:00:00.000Z",
+      "images": ["/products/apple-iphone-13-128gb.svg", "/products/apple-iphone-13-128gb-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000002",
+      "name": "Samsung Galaxy A55 5G 8/256GB",
+      "slug": "samsung-galaxy-a55-5g",
+      "description": "A dependable mid-ranger with a 6.6-inch 120Hz AMOLED screen, 50MP OIS camera and a 5,000mAh battery that easily lasts a full day. 8GB RAM with 256GB storage, dual-SIM 5G support and Samsung's four generations of Android updates.",
+      "price_ngn": 480000,
+      "category": "phones",
+      "stock": 12,
+      "is_featured": false,
+      "created_at": "2026-09-12T10:00:00.000Z",
+      "images": ["/products/samsung-galaxy-a55-5g.svg", "/products/samsung-galaxy-a55-5g-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000003",
+      "name": "Tecno Camon 30 8/256GB",
+      "slug": "tecno-camon-30",
+      "description": "Popular all-rounder with a 6.78-inch AMOLED display, 50MP selfie camera and 70W fast charging. Great value for everyday use, streaming and social media, with 8GB RAM (plus virtual expansion) and 256GB of storage.",
+      "price_ngn": 335000,
+      "category": "phones",
+      "stock": 15,
+      "is_featured": false,
+      "created_at": "2026-09-05T10:00:00.000Z",
+      "images": ["/products/tecno-camon-30.svg", "/products/tecno-camon-30-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000004",
+      "name": "Xiaomi Redmi Note 13 Pro 8/256GB",
+      "slug": "xiaomi-redmi-note-13-pro",
+      "description": "200MP main camera, 6.67-inch AMOLED panel and 67W turbo charging at a price that makes sense. The battery comfortably covers a heavy day, and MIUI extras like split-screen make multitasking simple.",
+      "price_ngn": 385000,
+      "category": "phones",
+      "stock": 10,
+      "is_featured": false,
+      "created_at": "2026-08-28T10:00:00.000Z",
+      "images": ["/products/xiaomi-redmi-note-13-pro.svg", "/products/xiaomi-redmi-note-13-pro-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000005",
+      "name": "Apple MacBook Air 13-inch M2 8/256GB",
+      "slug": "macbook-air-13-m2",
+      "description": "Fanless, silent and seriously fast. The M2 MacBook Air handles coding, design, video calls and dozens of browser tabs while still returning all-day battery life. 13.6-inch Liquid Retina display, MagSafe charging and two Thunderbolt ports.",
+      "price_ngn": 1150000,
+      "category": "laptops",
+      "stock": 5,
+      "is_featured": true,
+      "created_at": "2026-09-25T10:00:00.000Z",
+      "images": ["/products/macbook-air-13-m2.svg", "/products/macbook-air-13-m2-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000006",
+      "name": "HP EliteBook 840 G8 i7/16/512",
+      "slug": "hp-elitebook-840-g8",
+      "description": "Business-class ultrabook: Intel Core i7, 16GB RAM and a fast 512GB NVMe SSD. Thin, light and built to survive daily commuting, with a comfortable backlit keyboard and a crisp 14-inch full-HD screen. Excellent for office work and remote roles.",
+      "price_ngn": 735000,
+      "category": "laptops",
+      "stock": 6,
+      "is_featured": false,
+      "created_at": "2026-09-15T10:00:00.000Z",
+      "images": ["/products/hp-elitebook-840-g8.svg", "/products/hp-elitebook-840-g8-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000007",
+      "name": "Dell Latitude 5420 i5/16/512",
+      "slug": "dell-latitude-5420",
+      "description": "Reliable 14-inch workhorse with an 11th-gen Intel Core i5, 16GB RAM and 512GB SSD. Fast boot, excellent keyboard and all the ports you need (HDMI, USB-C, USB-A). A smart pick for students, developers and business users.",
+      "price_ngn": 665000,
+      "category": "laptops",
+      "stock": 7,
+      "is_featured": false,
+      "created_at": "2026-09-02T10:00:00.000Z",
+      "images": ["/products/dell-latitude-5420.svg", "/products/dell-latitude-5420-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000008",
+      "name": "Apple AirPods Pro 2 USB-C",
+      "slug": "airpods-pro-2-usb-c",
+      "description": "Active noise cancellation that genuinely works on Lagos traffic, Adaptive Transparency, and a battery case with Find My support. Sweat and water resistant, with personalised spatial audio for movies and music.",
+      "price_ngn": 289000,
+      "category": "audio",
+      "stock": 20,
+      "is_featured": true,
+      "created_at": "2026-09-22T10:00:00.000Z",
+      "images": ["/products/airpods-pro-2-usb-c.svg", "/products/airpods-pro-2-usb-c-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000009",
+      "name": "Sony WH-1000XM5 Wireless Headphones",
+      "slug": "sony-wh-1000xm5",
+      "description": "Among the best noise-cancelling headphones you can buy: eight microphones, 30-hour battery life and superb call quality. Light on the head, folds flat, and pairs with two devices at once so you can switch between laptop and phone.",
+      "price_ngn": 395000,
+      "category": "audio",
+      "stock": 9,
+      "is_featured": false,
+      "created_at": "2026-09-08T10:00:00.000Z",
+      "images": ["/products/sony-wh-1000xm5.svg", "/products/sony-wh-1000xm5-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000010",
+      "name": "JBL Flip 6 Bluetooth Speaker",
+      "slug": "jbl-flip-6",
+      "description": "Pocket-sized speaker with surprisingly big sound, IP67 waterproof/dustproof rating and 12 hours of playtime. Pair two Flip 6 speakers for stereo sound at events, or use it as a loud speakerphone at the desk.",
+      "price_ngn": 138000,
+      "category": "audio",
+      "stock": 14,
+      "is_featured": false,
+      "created_at": "2026-08-20T10:00:00.000Z",
+      "images": ["/products/jbl-flip-6.svg", "/products/jbl-flip-6-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000011",
+      "name": "Samsung Galaxy Watch 6 44mm",
+      "slug": "samsung-galaxy-watch-6-44mm",
+      "description": "Sleek smartwatch with a crisp Super AMOLED display, sleep and heart-rate tracking, GPS and 40+ workout modes. Works with any recent Android phone and easily lasts a day and a half on a charge.",
+      "price_ngn": 215000,
+      "category": "accessories",
+      "stock": 11,
+      "is_featured": true,
+      "created_at": "2026-09-18T10:00:00.000Z",
+      "images": ["/products/samsung-galaxy-watch-6-44mm.svg", "/products/samsung-galaxy-watch-6-44mm-2.svg"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000012",
+      "name": "Anker 737 PowerBank 24,000mAh 140W",
+      "slug": "anker-737-powerbank-24000mah",
+      "description": "High-capacity power bank with a 140W USB-C port that can charge a MacBook, plus a smart digital display showing remaining time. Charges itself fully in about an hour. Cabin-friendly and built for blackouts.",
+      "price_ngn": 98000,
+      "category": "accessories",
+      "stock": 18,
+      "is_featured": false,
+      "created_at": "2026-08-15T10:00:00.000Z",
+      "images": ["/products/anker-737-powerbank-24000mah.svg", "/products/anker-737-powerbank-24000mah-2.svg"]
+    }
+  ]
+}
