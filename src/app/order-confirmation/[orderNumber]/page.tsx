@@ -115,7 +115,7 @@ export default async function OrderConfirmationPage({
       <div className="mt-6 flex flex-col gap-2 sm:flex-row">
         <Link
           href="/orders"
-          className="rounded-xl bg-accent px-6 py-3 text-center text-sm font-semibold text-black transition-colors hover:bg-accent-hover hover:text-white"
+          className="rounded-xl bg-accent px-6 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-accent-hover hover:text-white"
         >
           Track in My Orders
         </Link>

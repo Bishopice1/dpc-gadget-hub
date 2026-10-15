@@ -7,6 +7,14 @@ const nextConfig: NextConfig = {
     // Placeholder product art ships as self-generated SVGs; swap for JPG/WebP later.
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    remotePatterns: [
+      {
+        // Admin-uploaded product photos served from Supabase Storage.
+        protocol: "https",
+        hostname: "**.supabase.co",
+        pathname: "/storage/v1/object/public/**",
+      },
+    ],
   },
   turbopack: {
     rules: {

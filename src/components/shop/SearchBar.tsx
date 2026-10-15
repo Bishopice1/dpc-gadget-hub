@@ -46,8 +46,8 @@ export default function SearchBar({ initialQuery = "" }: { initialQuery?: string
         value={value}
         onChange={(event) => setValue(event.target.value)}
         onBlur={() => apply(value)}
-        placeholder="Search products…"
-        className="w-full rounded-xl border border-line bg-surface px-4 py-2.5 pr-10 text-sm text-ink placeholder:text-muted focus:border-accent focus:outline-none"
+        placeholder="Search phones, laptops, audio & accessories…"
+        className="w-full rounded-xl border border-line bg-surface px-4 py-2.5 pr-10 text-sm text-ink placeholder:text-muted focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
       />
       <button
         type="submit"

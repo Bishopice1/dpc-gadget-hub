@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex flex-col gap-3 sm:flex-row">
           <Link
             href="/shop"
-            className="rounded-xl bg-accent px-6 py-3.5 text-center text-sm font-semibold text-black transition-colors hover:bg-accent-hover hover:text-white"
+            className="rounded-xl bg-accent px-6 py-3.5 text-center text-sm font-semibold text-white transition-colors hover:bg-accent-hover hover:text-white"
           >
             Shop all products
           </Link>

@@ -22,7 +22,7 @@ export default function ContactBand() {
             href={whatsappLink("Hi DPC Gadget Hub, I'd like to place an order.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl bg-accent px-5 py-3 text-center text-sm font-semibold text-black transition-colors hover:bg-accent-hover hover:text-white"
+            className="rounded-xl bg-accent px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-accent-hover hover:text-white"
           >
             WhatsApp us
           </a>

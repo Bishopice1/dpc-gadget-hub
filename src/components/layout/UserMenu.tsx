@@ -80,7 +80,7 @@ export default function UserMenu() {
     return (
       <Link
         href={`/login?next=${encodeURIComponent(pathname)}`}
-        className="rounded-lg bg-accent px-3.5 py-2 text-sm font-semibold text-black transition-colors hover:bg-accent-hover hover:text-white"
+        className="rounded-lg bg-accent px-3.5 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent-hover hover:text-white"
       >
         Sign in
       </Link>

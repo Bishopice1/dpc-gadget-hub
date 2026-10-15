@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  /* DPC Gadget Hub palette: dark neutral base + single emerald accent */
-  --color-base: #09090b;
-  --color-surface: #131316;
-  --color-surface-2: #1c1c21;
-  --color-line: #2a2a31;
-  --color-ink: #fafafa;
-  --color-muted: #a1a1aa;
-  --color-accent: #10b981;
-  --color-accent-hover: #059669;
-  --color-danger: #f87171;
-  --color-warning: #fbbf24;
+  /* DPC Gadget Hub palette: blue + white */
+  --color-base: #f5f7fb;
+  --color-surface: #ffffff;
+  --color-surface-2: #eef2f9;
+  --color-line: #dbe2ee;
+  --color-ink: #0f1b33;
+  --color-muted: #56617a;
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-danger: #dc2626;
+  --color-warning: #b45309;
 }
 
 @theme inline {

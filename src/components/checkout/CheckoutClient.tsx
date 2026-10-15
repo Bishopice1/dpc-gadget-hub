@@ -250,7 +250,7 @@ export default function CheckoutClient() {
 
         {submitError && <p role="alert" className="rounded-xl border border-danger/40 bg-danger/10 px-4 py-3 text-sm text-danger">{submitError}</p>}
 
-        <button type="submit" disabled={submitting || items.length === 0} className="flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-6 py-3.5 text-sm font-semibold text-black transition-colors hover:bg-accent-hover hover:text-white disabled:cursor-not-allowed disabled:opacity-50">
+        <button type="submit" disabled={submitting || items.length === 0} className="flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover hover:text-white disabled:cursor-not-allowed disabled:opacity-50">
           {submitting && <Spinner label="Placing order" />}
           {submitting ? "Placing your order…" : "Place order"}
         </button>

@@ -5,7 +5,7 @@ export const INSTAGRAM_HANDLE = "@dpcgadgethub";
 export const INSTAGRAM_URL = "https://www.instagram.com/dpcgadgethub";
 
 export const WHATSAPP_NUMBER =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "2348012345678";
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "2348134076633";
 
 export function whatsappLink(message?: string): string {
   const base = `https://wa.me/${WHATSAPP_NUMBER}`;

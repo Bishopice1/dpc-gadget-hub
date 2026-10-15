@@ -10,7 +10,7 @@ export default function ProductNotFound() {
       <div className="flex gap-3">
         <Link
           href="/shop"
-          className="rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-black transition-colors hover:bg-accent-hover"
+          className="rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover"
         >
           Back to shop
         </Link>

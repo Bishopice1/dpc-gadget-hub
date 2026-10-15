@@ -25,7 +25,7 @@ export default async function LoginPage({
         <div className="mb-6 flex flex-col items-center text-center">
           <span
             aria-hidden="true"
-            className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-lg font-black text-black"
+            className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-lg font-black text-white"
           >
             D
           </span>
@@ -47,7 +47,7 @@ export default async function LoginPage({
 
         <a
           href={googleHref}
-          className="flex w-full items-center justify-center gap-3 rounded-xl bg-accent px-6 py-3.5 text-sm font-semibold text-black transition-colors hover:bg-accent-hover hover:text-white"
+          className="flex w-full items-center justify-center gap-3 rounded-xl bg-accent px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover hover:text-white"
         >
           <svg
             aria-hidden="true"

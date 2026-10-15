@@ -68,7 +68,7 @@ export default function ProductPurchase({ product }: { product: Product }) {
             ? "cursor-not-allowed bg-surface-2 text-muted"
             : added
               ? "bg-accent-hover text-white"
-              : "bg-accent text-black hover:bg-accent-hover hover:text-white",
+              : "bg-accent text-white hover:bg-accent-hover hover:text-white",
         )}
       >
         {outOfStock

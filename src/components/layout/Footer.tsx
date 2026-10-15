@@ -17,7 +17,7 @@ export default function Footer() {
           <p className="flex items-center gap-2 font-semibold">
             <span
               aria-hidden="true"
-              className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-sm font-black text-black"
+              className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-sm font-black text-white"
             >
               D
             </span>

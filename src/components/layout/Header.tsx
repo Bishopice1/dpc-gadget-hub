@@ -49,7 +49,7 @@ function CartLink() {
       </svg>
       {count > 0 && (
         <span
-          className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-accent px-1 text-xs font-bold text-black"
+          className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-accent px-1 text-xs font-bold text-white"
           aria-hidden="true"
         >
           {count > 99 ? "99+" : count}
@@ -81,7 +81,7 @@ export default function Header() {
         >
           <span
             aria-hidden="true"
-            className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-sm font-black text-black"
+            className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-sm font-black text-white"
           >
             D
           </span>

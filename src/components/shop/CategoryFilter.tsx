@@ -34,7 +34,7 @@ export default function CategoryFilter({
             className={cn(
               "rounded-full border px-4 py-1.5 text-sm transition-colors",
               !active
-                ? "border-accent bg-accent text-black font-semibold"
+                ? "border-accent bg-accent text-white font-semibold"
                 : "border-line bg-surface text-muted hover:border-accent/50 hover:text-ink",
             )}
           >
@@ -49,7 +49,7 @@ export default function CategoryFilter({
               className={cn(
                 "rounded-full border px-4 py-1.5 text-sm transition-colors",
                 active === category.slug
-                  ? "border-accent bg-accent text-black font-semibold"
+                  ? "border-accent bg-accent text-white font-semibold"
                   : "border-line bg-surface text-muted hover:border-accent/50 hover:text-ink",
               )}
             >

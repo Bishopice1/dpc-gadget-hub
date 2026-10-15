@@ -15,7 +15,7 @@ export default function ProductCard({
   const imageUrl = product.image_urls[0] ?? "/products/placeholder.svg";
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-surface transition-colors hover:border-accent/50">
+    <article className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-surface shadow-sm transition-all hover:-translate-y-0.5 hover:border-accent/60 hover:shadow-lg hover:shadow-accent/10">
       <Link
         href={`/products/${product.slug}`}
         className="relative block aspect-square overflow-hidden bg-surface-2"
@@ -35,7 +35,7 @@ export default function ProductCard({
         <p className="text-xs uppercase tracking-wider text-muted">
           {categoryLabel(product.category)}
         </p>
-        <h3 className="text-sm font-semibold leading-snug">
+        <h3 className="line-clamp-2 min-h-[2.5rem] text-sm font-semibold leading-snug">
           <Link
             href={`/products/${product.slug}`}
             className="transition-colors hover:text-accent"

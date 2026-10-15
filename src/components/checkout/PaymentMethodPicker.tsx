@@ -31,7 +31,7 @@ export default function PaymentMethodPicker({
               value={option.value}
               checked={selected}
               onChange={() => onChange(option.value)}
-              className="mt-1 h-4 w-4 accent-emerald-500"
+              className="mt-1 h-4 w-4 accent-blue-600"
             />
             <span>
               <span className="block text-sm font-semibold">
