@@ -2,14 +2,16 @@
 
 @theme {
   /* DPC Gadget Hub palette: blue + white */
-  --color-base: #f5f7fb;
+  --color-base: #f4f7fe;
   --color-surface: #ffffff;
-  --color-surface-2: #eef2f9;
-  --color-line: #dbe2ee;
-  --color-ink: #0f1b33;
-  --color-muted: #56617a;
-  --color-accent: #2563eb;
-  --color-accent-hover: #1d4ed8;
+  --color-surface-2: #eaf1fd;
+  --color-line: #d6e2f5;
+  --color-ink: #0e1e3a;
+  --color-muted: #556282;
+  --color-accent: #1a5be0;
+  --color-accent-hover: #1449b4;
+  --color-accent-soft: #dbe7ff;
+  --color-navy: #0e2a63;
   --color-danger: #dc2626;
   --color-warning: #b45309;
 }

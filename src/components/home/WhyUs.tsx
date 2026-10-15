@@ -21,7 +21,7 @@ export default function WhyUs() {
   return (
     <section
       aria-labelledby="why-us-heading"
-      className="border-y border-line bg-surface"
+      className="border-y border-line bg-gradient-to-b from-white to-accent-soft/40"
     >
       <div className="container-page py-14">
         <h2
@@ -34,7 +34,7 @@ export default function WhyUs() {
           {REASONS.map((reason) => (
             <li
               key={reason.title}
-              className="rounded-2xl border border-line bg-surface-2 p-5"
+              className="rounded-2xl border border-line bg-white p-5 shadow-sm"
             >
               <span
                 aria-hidden="true"

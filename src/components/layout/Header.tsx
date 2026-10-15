@@ -72,7 +72,8 @@ export default function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-base/90 backdrop-blur">
+    <header className="sticky top-0 z-40 bg-white/95 shadow-sm backdrop-blur">
+      <div aria-hidden="true" className="h-1 bg-gradient-to-r from-accent via-[#4d86ff] to-navy" />
       <div className="container-page flex h-16 items-center justify-between gap-4">
         <Link
           href="/"
@@ -81,12 +82,12 @@ export default function Header() {
         >
           <span
             aria-hidden="true"
-            className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-sm font-black text-white"
+            className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-accent to-navy text-sm font-black text-white shadow-sm shadow-accent/30"
           >
             D
           </span>
           <span className="text-lg">
-            DPC <span className="text-muted font-normal">Gadget Hub</span>
+            DPC <span className="font-normal text-accent">Gadget Hub</span>
           </span>
         </Link>
 
@@ -99,9 +100,9 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className={cn(
-                "rounded-lg px-3 py-2 text-sm transition-colors hover:bg-surface-2 hover:text-ink",
+                "rounded-lg px-3 py-2 text-sm font-medium transition-colors hover:bg-accent-soft hover:text-accent",
                 pathname === link.href
-                  ? "text-ink"
+                  ? "bg-accent-soft text-accent"
                   : "text-muted",
               )}
               aria-current={pathname === link.href ? "page" : undefined}

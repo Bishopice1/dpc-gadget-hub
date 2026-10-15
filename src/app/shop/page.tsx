@@ -82,12 +82,18 @@ export default async function ShopPage({
 
   return (
     <div className="container-page py-10">
-      <header className="mb-6">
-        <h1 className="text-3xl font-bold tracking-tight">Shop</h1>
-        <p className="mt-2 text-sm text-muted">
-          Genuine gadgets at honest prices — {CATEGORIES.length} categories,
-          nationwide delivery.
-        </p>
+      <header className="relative mb-6 overflow-hidden rounded-2xl border border-line bg-white p-6 shadow-sm sm:p-8">
+        <div aria-hidden="true" className="absolute inset-y-0 right-0 hidden w-56 bg-gradient-to-l from-accent-soft via-accent-soft/40 to-transparent sm:block" />
+        <div className="relative">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
+            Official store · Lagos
+          </p>
+          <h1 className="mt-1 text-3xl font-extrabold tracking-tight text-navy">Shop</h1>
+          <p className="mt-2 max-w-xl text-sm leading-relaxed text-muted">
+            Genuine gadgets at honest prices — {CATEGORIES.length} categories,
+            nationwide delivery, pay on delivery or transfer.
+          </p>
+        </div>
       </header>
 
       <div className="mb-6 flex flex-col gap-4">

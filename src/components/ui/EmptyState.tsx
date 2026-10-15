@@ -15,8 +15,11 @@ export default function EmptyState({
   children?: ReactNode;
 }) {
   return (
-    <div className="flex flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-line bg-surface px-6 py-16 text-center">
-      <p className="text-lg font-semibold">{title}</p>
+    <div className="flex flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-accent/40 bg-gradient-to-b from-white to-accent-soft/40 px-6 py-16 text-center">
+      <span aria-hidden="true" className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-2xl shadow-sm ring-1 ring-accent/20">
+        🔍
+      </span>
+      <p className="text-lg font-extrabold text-navy">{title}</p>
       {description && (
         <p className="max-w-md text-sm leading-relaxed text-muted">
           {description}

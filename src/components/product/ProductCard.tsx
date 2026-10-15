@@ -31,8 +31,8 @@ export default function ProductCard({
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </Link>
-      <div className="flex flex-1 flex-col gap-2 p-4">
-        <p className="text-xs uppercase tracking-wider text-muted">
+      <div className="flex flex-1 flex-col gap-2 bg-white p-4">
+        <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
           {categoryLabel(product.category)}
         </p>
         <h3 className="line-clamp-2 min-h-[2.5rem] text-sm font-semibold leading-snug">
@@ -43,7 +43,7 @@ export default function ProductCard({
             {product.name}
           </Link>
         </h3>
-        <p className="text-base font-bold text-accent">
+        <p className="text-base font-extrabold text-navy">
           {formatNaira(product.price_ngn)}
         </p>
         <div className="mt-auto pt-1">

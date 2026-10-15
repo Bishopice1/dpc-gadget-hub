@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="Product image coming soon">
-  <rect width="800" height="800" fill="#131316"/>
-  <rect x="40" y="40" width="720" height="720" rx="28" fill="none" stroke="#10b981" stroke-opacity="0.35" stroke-width="2"/>
-  <text x="400" y="410" text-anchor="middle" fill="#71717a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="30">Image coming soon</text>
-  <text x="400" y="470" text-anchor="middle" fill="#52525b" font-family="ui-monospace, monospace" font-size="20">DPC Gadget Hub</text>
+  <rect width="800" height="800" fill="#EFF4FF"/>
+  <rect x="40" y="40" width="720" height="720" rx="32" fill="#FFFFFF" stroke="#2563EB" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="400" cy="330" r="88" fill="#DBEAFE"/>
+  <g fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="368" y="298" width="64" height="46" rx="8"/>
+    <circle cx="384" cy="314" r="5" fill="#2563EB" stroke="none"/>
+    <path d="M368 330 L392 312 L408 326 L424 314 L432 320"/>
+  </g>
+  <text x="400" y="482" text-anchor="middle" fill="#0F1B33" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32" font-weight="700">Image coming soon</text>
+  <text x="400" y="516" text-anchor="middle" fill="#2563EB" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700" letter-spacing="3">DPC GADGET HUB</text>
 </svg>

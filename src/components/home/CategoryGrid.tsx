@@ -20,9 +20,12 @@ export default function CategoryGrid() {
           <li key={category.slug}>
             <Link
               href={`/shop?category=${category.slug}`}
-              className="group flex h-full flex-col gap-2 rounded-2xl border border-line bg-surface p-5 transition-colors hover:border-accent/60"
+              className="group flex h-full flex-col gap-2 rounded-2xl border border-line bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-lg hover:shadow-accent/10"
             >
-              <span className="text-lg font-semibold transition-colors group-hover:text-accent">
+              <span aria-hidden="true" className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent-soft text-lg">
+                {category.slug === "phones" ? "📱" : category.slug === "laptops" ? "💻" : category.slug === "audio" ? "🎧" : "⌚"}
+              </span>
+              <span className="text-lg font-bold text-navy transition-colors group-hover:text-accent">
                 {category.label}
               </span>
               <span className="text-sm leading-relaxed text-muted">

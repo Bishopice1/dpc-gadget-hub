@@ -15,12 +15,17 @@ export default async function HomePage() {
 
       <section aria-labelledby="featured-heading" className="container-page py-14">
         <div className="mb-6 flex items-end justify-between gap-4">
-          <h2
-            id="featured-heading"
-            className="text-2xl font-bold tracking-tight"
-          >
-            Featured picks
-          </h2>
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
+              Hand-picked for you
+            </p>
+            <h2
+              id="featured-heading"
+              className="mt-1 text-2xl font-extrabold tracking-tight text-navy"
+            >
+              Featured picks
+            </h2>
+          </div>
           <Link
             href="/shop"
             className="text-sm font-medium text-accent transition-colors hover:text-accent-hover"
